@@ -1,0 +1,101 @@
+//return Head==Tail==null
+    //public boolean isEmpty()
+    //return actualNode == head
+    //public boolean isFirst()
+    //return actualNode == tail
+    //public boolean isLast()
+    //HA actualNode !=null AKKOR return actualNode.value
+    //public int getActualValue() {
+    //HA actualNode !=null AKKOR actualNode.value = value
+    //public void setActualNodeValue(int newValue) {
+    //HA actualNode !=null ÉS ¬isLast() AKKOR actualNode <- actualNode.prevoiusNode
+    //public void stepBackward() {
+    //HA actualNode != null ÉS ¬isFirst() AKKOR actualNode <- actualNode.nextNode
+    //public void stepForeward() {
+    //actualNode <- tail
+    //public void stepLast()
+    //actualNod <- Head
+    //public void stepFirst()
+    /*
+    insertFirst(ertek)
+        actualNode <- ujCsomopon <- ÚJ Node
+        ujCsomopont.Ertek <- ertek
+        ujCsomopont.Elozo <- null
+        ujCsomopont.Kovetkezo <- Head
+        HA isEmpty() AKKOR Head <- Tail <- ujCsomopont
+        KÜLÖNBEN
+        Head.Elozo <- ujCsomopont
+        Head <- ujCsomopont
+     */
+    //public void insertFirst(int value) {
+    /*
+    insertLast(ertek)
+        HA isEmpty() AKKOR insertFirst(ertek)
+        KÜLÖNBEN
+        Akt <- ujCsomopont <- ÚJ Node
+        ujCsomopont.Ertek <- ertek
+        ujCsomopont.Elozo <- Tail
+        ujCsomopont.Kovetkezo <- null
+        Tail.Kovetkezo <- ujCsomopont
+        Tail <- ujCsomopont
+     */
+    //public void insertLast(int value) {
+    /*
+    insertBefore(ertek)
+    HA isEmpty() VAGY isFirst() AKKOR insertFirst(ertek)
+    KÜLÖNBEN
+        ujCsomopont <- ÚJ Node
+        ujCsomopont.Ertek <- ertek
+        ujCsomopont.Elozo <- Akt.Elozo
+        ujCsomopont.Kovetkezo <- Akt
+        Akt.Elozo.Kovetkezo <- ujCsomopont
+        Akt.Elozo <- ujCsomopont
+        Akt <- ujCsomopont
+     */
+    //Aktualis elem ele valo beszuras
+    //public void insertBefore(int value) {
+    /*
+    insertAfter(ertek)
+    HA isEmpty() VAGY isLast() AKKOR insertLast(ertek)
+    KÜLÖNBEN
+        stepForward()
+        insertBefore(ertek)
+    */
+    //Aktualis elem utan valo beszuras
+    //public void insertAfter(int value) {
+    /*
+    removeFirst()
+    HA ¬isEmpty() AKKOR
+        HA isFirst() AKKOR Akt <- Head.Kovetkezo
+                           Head <- Head.Kovetkezo
+        HA Head != null AKKOR Head.Elozo <- null
+                        KÜLÖNBEN
+                        Tail <- null
+     */
+    //Az elso elem torlese
+    //public void removeFirst() {
+    /*
+    removeLast()
+    HA ¬isEmpty() AKKOR
+        HA Tail==Head AKKOR removeFirst(); VÉGE
+        HA isLast() AKKOR Akt <- Tail.Elozo
+                                 Tail <- Tail.Elozo
+                                 Tail.Kovetkezo <- null
+     */
+    //Az utolso elem torlese
+    //public void removeLast() {
+    /*
+    removeActual()
+    HA ¬isEmpty() AKKOR
+    HA isFirst() AKKOR removeFirst(); VÉGE
+    HA isLast() AKKOR removeLast(); VÉGE
+    Akt.Elozo.Kovektkezo <- Akt.Kovektezo
+    Akt.Kovetkezo.Elozo <- Akt.Elozo
+    Akt <- Akt.Kovetkezo
+     */
+    //actualis elem torlese
+    //public void removeActual() {
+//tartalmaz?
+    //public boolean contains(int searchValue){
+    //public String toString(){
+    //public int getSize()
