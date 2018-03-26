@@ -48,7 +48,7 @@ public class Winamp {
         }
         System.out.println("Average length:" + player.averageLength());
     }
-    
+
     public int averageLength() {
         int totalLength = 0;
         for (int i = 0; i < mp3Array.length; i++) {
