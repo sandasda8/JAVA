@@ -7,7 +7,7 @@ public class Video implements Rentable {
 
     public Video(String filmTitle, String forHowLongRentable, int ageLimit) {
         this.filmTitle = filmTitle;
-        this.rented = true;
+        this.rented = false;
         if (forHowLongRentable.equals("oneday") || forHowLongRentable.equals("twodays") || forHowLongRentable.equals("unlimited")){
             this.forHowLongRentable = forHowLongRentable;
         }
