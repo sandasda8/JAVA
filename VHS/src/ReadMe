@@ -32,7 +32,9 @@ szükséges a Video valamint az OktatoVideo osztályokban a HashCode valamint eq
 Írj egy futtatható osztályt, mely megnyit egy „input.txt” nevű fájlt! A fájl első sora tartalmazza azt, hogy hány
 további sor van a fájlban. A további sorok pontosvesszővel elválasztott Stringeket tartalmaznak: az első elem a videó
 címét, a második az „egynapos”, „kétnapos”, illetve „korlátlan” szavak valamelyikét tartalmazza, és amennyiben videóról
-van szó, akkor a harmadik elem a korhatár. StringTokenizer (vagy splitter) segítségével dolgozd fel a sorokat, és hozd
+van szó, akkor a harmadik elem a korhatár.
+
+StringTokenizer (vagy splitter) segítségével dolgozd fel a sorokat, és hozd
 létre a megadott számú Video vagy OktatoVideo objektumot. Példányosítsd a VideoTeka osztályt, majd a hozzaad metódus
 segítségével tedd bele a létrehozott objektumokat. Ezután kérd le a keres metódus segítségével keres meg egy filmet, és
 hívd meg a kikolcsonoz metódusát. A ki-, bemeneti és más hibákat kapd el, és írj ki valamilyen, a felhasználó számára is
