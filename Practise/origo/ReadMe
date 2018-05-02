@@ -1,0 +1,12 @@
+Feladat:
+az origo keresojet felhsznalva, egy adott kulcsszohoz kapcsolodo cikkek tartalmat toltsuk le, es mentsuk el egy adatbazisba!
+Kis segitseg:
+igy tudok pl a "microsoft" cimkere keresni az origon:
+http://cimkezes.origo.hu/cimkek/microsoft/index.html
+tovabbi cikkek:
+http://cimkezes.origo.hu/cimkek/microsoft/index.html?tag=Microsoft&hits=10&offset=10
+vagyis az ezen oldalakon fellelheto cikkeket kell letolteni, es parsolni. Csak a kontent kell. Tovabbi plussz,
+ha valahogy automatikusan ki tudod nyerni a relevans tartalmat, vagyis a reklamok nem kellenek pl.
+Majd ezeket mensd el egy adatbazisban.
+Ha valaki nagyon ugyes, akkor elasticsearchben menti el az adatokat: elastic.co
+A helyes megoldok kozt sor/froccs/csoki kerul kiosztasra.

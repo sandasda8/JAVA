@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upAndDownload.iml" filepath="$PROJECT_DIR$/.idea/modules/upAndDownload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upAndDownload_main.iml" filepath="$PROJECT_DIR$/.idea/modules/upAndDownload_main.iml" group="upAndDownload" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/upAndDownload_test.iml" filepath="$PROJECT_DIR$/.idea/modules/upAndDownload_test.iml" group="upAndDownload" />
+    </modules>
+  </component>
+</project>

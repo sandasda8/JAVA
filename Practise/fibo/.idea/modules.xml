@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fibo.iml" filepath="$PROJECT_DIR$/.idea/modules/fibo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fibo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/fibo_main.iml" group="fibo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fibo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/fibo_test.iml" group="fibo" />
+    </modules>
+  </component>
+</project>

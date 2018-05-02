@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mailsend.iml" filepath="$PROJECT_DIR$/.idea/modules/mailsend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mailsend_main.iml" filepath="$PROJECT_DIR$/.idea/modules/mailsend_main.iml" group="mailsend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mailsend_test.iml" filepath="$PROJECT_DIR$/.idea/modules/mailsend_test.iml" group="mailsend" />
+    </modules>
+  </component>
+</project>
