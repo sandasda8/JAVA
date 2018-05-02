@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="elsoproject:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/elsoproject_jar</output-path>
-    <root id="archive" name="elsoproject.jar">
-      <element id="module-output" name="elsoproject" />
-    </root>
-  </artifact>
-</component>
